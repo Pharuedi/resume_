@@ -8,15 +8,19 @@ body {
 }
 
 a {
-  color: lightcoral;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
   color: #067ded;
   text-decoration: none;
-}
+    
 
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -28,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb none repeat scroll 0% 0%;
+  background: #0563bb none repeat scroll 0% 0%
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -215,7 +219,7 @@ transition: all 0.4s ease 0s;
 
 .mobile-nav-active .mobile-nav-toggle {
   color: white;
-  background-color: #0563bb;
+  background-color: lightcoral;
 }
 
 #hero {
@@ -912,7 +916,7 @@ box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
   height: 12px;
   background-color: white;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #F08080;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -933,7 +937,7 @@ box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #F08080;
   float: left;
   width: 44px;
   height: 44px;
@@ -965,7 +969,7 @@ transition: all 0.3s ease-in-out 0s;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb none repeat scroll 0% 0%;
+  background: lightcoral none repeat scroll 0% 0%;
   color: white;
 }
 
@@ -1036,18 +1040,19 @@ box-shadow: none;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: lightcoral
+  background: #eef7ff none repeat scroll 0% 0%
  none repeat scroll 0% 0%;
   border: 0px none;
   padding: 10px 35px;
-  color: white
+  color: lightcoral
 ;
 transition: all 0.4s ease 0s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3 none repeat scroll 0% 0%;
+  background: lightcoral none repeat scroll 0% 0%;
+  color: white;
 }
 
 @keyframes animate-loading {
