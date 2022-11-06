@@ -140,7 +140,7 @@ transition: all 0.5s ease 0s;
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #020203;
   padding: 10px 18px;
   margin-bottom: 8px;
   font-size: 15px;
@@ -172,21 +172,21 @@ transition: all 0.3s ease 0s;
 }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
-  color: white;
+  color: #670906;
   background: lightcoral none repeat scroll 0% 0%;
 }
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
-  color: white;
+  color: #670906;
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
-  color: white;
+  color: #670906;
 }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
-  display: block;
+  display: block; color: #670906;
 }
 
 .mobile-nav-toggle {
@@ -334,7 +334,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: lightcoral none repeat scroll 0% 0%;
+  background: #7F4040 none repeat scroll 0% 0%;
   bottom: 0px;
   left: calc(50% - 20px);
 }
@@ -346,7 +346,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #5C6A78;
 }
 
 .about .content ul {
@@ -428,7 +428,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #728394;
+  color: #4A545E;
 }
 
 .skills .progress .skill .val {
@@ -437,7 +437,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #fde0dc none repeat scroll 0% 0%;
+  background: #FDE0DC none repeat scroll 0% 0%;
 }
 
 .skills .progress-bar {
@@ -458,7 +458,7 @@ transition: all 0.9s ease 0s;
 .resume .resume-item {
   padding: 0px 0px 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #ffcccc;
+  border-left: 2px solid #8C5253;
   position: relative;
 }
 
@@ -468,7 +468,7 @@ transition: all 0.9s ease 0s;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: lightcoral;
+  color: #7F4040;
   margin-bottom: 10px;
 }
 
@@ -503,8 +503,8 @@ transition: all 0.9s ease 0s;
   border-radius: 50px;
   left: -9px;
   top: 0px;
-  background: white none repeat scroll 0% 0%;
-  border: 2px solid lightcoral;
+  background: #FFF0F5 none repeat scroll 0% 0%;
+  border: 2px solid #7F4040;
 }
 
 .portfolio .portfolio-item {
@@ -961,7 +961,7 @@ transition: all 0.3s ease-in-out 0s;
   padding: 0px 0px 0px 60px;
   margin-bottom: 0px;
   font-size: 14px;
-  color: #728394;
+  color: #464B51;
 }
 
 .contact .info .email, .contact .info .phone {
