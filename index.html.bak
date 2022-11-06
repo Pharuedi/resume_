@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>My Resume</title>
     <meta content="Resume for job application" name="description">
-    <meta content="Resume, Job application, Librarian, my profile" name="keywords">
+    <meta content="Resume, Job application, Librarian, my profile, Pharuedi Khongrueang" name="keywords">
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -60,9 +60,9 @@
               current world, o we never stop learning. </p>
           </div>
           <div class="row">
-            <div class="col-lg-4"> <img src="assets/img/profile-img.jpg" alt="my profile"
+            <div class="col-lg-4"> <img src="assets/img/profile-img.jpg" alt="Pharuedi"
 
-                title="my profile" class="rounded-circle" height="350" width="350">
+                title="Pharuedi" class="rounded-circle" height="350" width="350">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Librarian </h3>
